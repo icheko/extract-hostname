@@ -1,0 +1,9 @@
+"propertyName": "staging.mbe.domain.com",
+                            "label": "mobile-domain-com",
+                                "domain.com"
+                                "domain.co.uk"
+                                "domain.ai"
+                                    "hostname": "billing-api-staging.domain.com",
+                                            "subjectCN": "mbe-staging.domain.com",
+                        "description": "mbe-staging.domain.com",
+                        "name": "mbe-staging.domain.com"

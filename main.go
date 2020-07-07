@@ -68,7 +68,7 @@ func printUsage() {
 func extractHostName(str string) string {
 	var hostName = ""
 
-	re := regexp.MustCompile(`(?P<hostname>[a-zA-Z0-9-]*\..*\.com)`)
+	re := regexp.MustCompile(`(([a-zA-Z\d-]+\.){0,}([a-zA-Z\d-]+){0,}\.([a-zA-Z\d-]+){2,})`)
 	if re.MatchString(str) {
 		hostName = re.FindString(str)
 	}
